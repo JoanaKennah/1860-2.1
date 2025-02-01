@@ -25,8 +25,7 @@ M=0
 
 (NEGATIVE)
 @1
-M=!D
-M=M+1
+M=-D
 @2
 M=1
 @3
