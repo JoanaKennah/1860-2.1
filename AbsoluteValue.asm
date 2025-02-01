@@ -12,21 +12,30 @@ D;JGT
 M=D
 @2
 M=0
-@3
-M=1
 
 (POSITIVE)
 @1
 M=D
 @2
 M=0
-@3
-M=0
 
 (NEGATIVE)
 @1
-M=-D
+M=!D
+M=M+1
 @2
 M=1
-@3
+
+@R0
+D=M
+@32768
+D=D+A
+@CANNOT_COMPUTE
+D;JEQ
+
+@R3
 M=0
+
+(CANNOT_COMPUTE)
+@R3
+M=1
