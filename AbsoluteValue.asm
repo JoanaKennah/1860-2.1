@@ -12,11 +12,15 @@ D;JGT
 M=D
 @2
 M=0
+@R3
+M=0
 
 (POSITIVE)
 @1
 M=D
 @2
+M=0
+@R3
 M=0
 
 (NEGATIVE)
@@ -25,6 +29,8 @@ M=!D
 M=M+1
 @2
 M=1
+@R3
+M=0
 
 @R0
 D=M
