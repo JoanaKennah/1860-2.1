@@ -31,17 +31,3 @@ M=M+1
 M=1
 @R3
 M=0
-
-@R0
-D=M
-@32768
-D=D+A
-@CANNOT_COMPUTE
-D;JEQ
-
-@R3
-M=0
-
-(CANNOT_COMPUTE)
-@R3
-M=1
